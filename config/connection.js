@@ -1,4 +1,6 @@
+// Import Sequelize module
 const Sequelize = require('sequelize');
+// environment variables from a .env file
 require('dotenv').config();
 
 let sequelize;
